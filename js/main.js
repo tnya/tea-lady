@@ -6,7 +6,7 @@ var apellido = document.getElementById("lastName").value;
 var email = document.getElementById("email").value;
 var direccion = document.getElementById("address").value;
 var telefono = document.getElementById("phone").value;
-var selection = document.getElementById("selection").value;
+var selection = document.getElementById("selection").selectedIndex;
 var checkbox = document.getElementById("checkbox").value;
 
 
@@ -30,7 +30,7 @@ var checkbox = document.getElementById("checkbox").value;
 		alert("Ingrese su teléfono")
 		return false
 
-	} else if (!document.getElementById("selection").value){
+	} else if (!document.getElementById("selection").selectedIndex){
 		alert("Selecciona un pack")
 		return false
 		
