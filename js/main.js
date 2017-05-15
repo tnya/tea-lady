@@ -30,7 +30,7 @@ var checkbox = document.getElementById("checkbox").value;
 		alert("Ingrese su teléfono")
 		return false
 
-	} else if (selection === "" ){
+	} else if (!document.getElementById("selection").value){
 		alert("Selecciona un pack")
 		return false
 		
@@ -39,4 +39,7 @@ var checkbox = document.getElementById("checkbox").value;
         return false;
     } 
 
+}
+
+impresion.innerHTML = "<br><ul><li>" + name + " " + lastName + "</li><br><li>" + email + "</li><br><li>" + address + "</li><br><li>"  + phone + "</li></ul><br>";
 }

@@ -1,1 +1,46 @@
 /* Escribe acá tus estilos*/
+*{
+	font-family: 'Open Sans', sans-serif;
+}
+
+body{
+	margin: 0 auto;
+	background-image: url("../img/fondo1.jpg");
+	background-size: 100% 1000px;
+	
+
+}	
+/*
+h1{
+	text-align: center;
+	font-family: "Petit Formal Script", cursive;
+	color: #000000;
+	font-size: 40px;
+}
+
+p{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.8em;
+	color: #000000;
+}
+*/
+.container{
+	
+	width: 200px;
+	height: 1000px;
+	text-align: center;
+	background-color: rgba(255, 204, 204, 0.9);
+	border-radius: 4px;
+	margin-top: 300px;
+	margin: 0 auto;
+	
+}
+
+.container img{
+	width: 100px;
+	height: 140px;
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
